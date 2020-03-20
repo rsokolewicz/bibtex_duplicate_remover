@@ -84,4 +84,4 @@ or one can also copy the folder `bibtex_duplicate_remover` to where your LaTeX p
 
 ### License
 
-betterbib is published under the [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+bibtex_duplicate_remover is published under the [MIT license](https://en.wikipedia.org/wiki/MIT_License).
