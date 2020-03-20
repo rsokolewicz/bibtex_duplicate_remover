@@ -40,6 +40,7 @@ which you cite with both keys inside `main.tex`. This will
 result in the following bibliography:
 
 [1] A. Einstein, B. Podolsky, and N. Rosen, Phys. Rev. **47**, 777 (1935).
+
 [2] A. Einstein, B. Podolsky, and N. Rosen, Phys. Rev. **47**, 777 (1935).
 
 This package can be used to automatically replace the key 
