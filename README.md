@@ -37,7 +37,7 @@ Suppose your bibliography file `bibliography.bib` contains the following two ent
 ```
 which you cite with both keys inside `main.tex`. This will result in the following bibliography
 
-![bibliography](.bibtex_duplicate_remover/img/bibliography.png)
+![bibliography](./bibtex_duplicate_remover/img/bibliography.png)
 
 This package can be used to automatically replace the key 
 `Einstein1935` with `PhysRev.47.777` in your `main.tex` file and 
