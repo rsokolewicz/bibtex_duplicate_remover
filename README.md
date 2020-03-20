@@ -1,6 +1,6 @@
 When combining different .bib files from co-authors or 
 from previous projects, sometimes the same article is 
-referenced using different a different cite-key and will 
+cited using different cite-keys and will 
 appear multiple times in the bibliography. 
 
 This package will go through your `.bib` file and find 
