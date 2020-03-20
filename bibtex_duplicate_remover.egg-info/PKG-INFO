@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: bibtex-duplicate-remover
+Version: 0.1
+Summary: Remove duplicates in bib-file and update the cite-keys in tex files accordingly
+Home-page: http://github.com/rsokolewicz/bibtex_duplicate_remover
+Author: rsokolewicz
+Author-email: rsokolewicz@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

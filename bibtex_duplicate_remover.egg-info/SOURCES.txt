@@ -1,0 +1,7 @@
+setup.py
+bibtex_duplicate_remover/__init__.py
+bibtex_duplicate_remover.egg-info/PKG-INFO
+bibtex_duplicate_remover.egg-info/SOURCES.txt
+bibtex_duplicate_remover.egg-info/dependency_links.txt
+bibtex_duplicate_remover.egg-info/not-zip-safe
+bibtex_duplicate_remover.egg-info/top_level.txt
