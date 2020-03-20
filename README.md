@@ -74,4 +74,13 @@ for file in files:
 RemoveDuplicatesInBibfile(bibliography.bib)
 ```
 
+### Installation
+The package can be either installed as a standalone package using pip
 
+``` pip install . ```
+
+or one can also copy the folder `bibtex_duplicate_remover` to where your LaTeX project.
+
+### License
+
+betterbib is published under the [MIT license](https://en.wikipedia.org/wiki/MIT_License).
