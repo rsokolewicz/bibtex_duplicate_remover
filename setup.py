@@ -13,5 +13,4 @@ setup(name='bibtex_duplicate_remover',
       author='rsokolewicz',
       author_email='rsokolewicz@gmail.com',
       packages=['bibtex_duplicate_remover'],
-      install_requires = ['re', 'collections', 'numpy'],
       zip_safe=False)
