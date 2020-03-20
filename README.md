@@ -40,6 +40,7 @@ which you cite with both keys inside `main.tex`. This will
 result in the following bibliography:
 
 [1] A. Einstein, B. Podolsky, and N. Rosen, Phys. Rev. **47**, 777 (1935).
+
 [2] A. Einstein, B. Podolsky, and N. Rosen, Phys. Rev. **47**, 777 (1935).
 
 This package can be used to automatically replace the key 
@@ -74,4 +75,13 @@ for file in files:
 RemoveDuplicatesInBibfile(bibliography.bib)
 ```
 
+### Installation
+The package can be either installed as a standalone package using pip
 
+``` pip install . ```
+
+or one can also copy the folder `bibtex_duplicate_remover` to where your LaTeX project.
+
+### License
+
+bibtex_duplicate_remover is published under the [MIT license](https://en.wikipedia.org/wiki/MIT_License).
