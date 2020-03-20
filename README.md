@@ -8,7 +8,8 @@ duplicate entries with different cite-keys and then update
 the `.tex` file by replacing the cite keys accordingly.
 
 ### example
-Suppose your bibliography file `bibliography.bib` contains the following two entries 
+Suppose your bibliography file `bibliography.bib` contains 
+the following two entries:
 ```
 @article{PhysRev.47.777,
   title = {Can Quantum-Mechanical Description of Physical 
@@ -35,13 +36,16 @@ Suppose your bibliography file `bibliography.bib` contains the following two ent
   url = {https://link.aps.org/doi/10.1103/PhysRev.47.777}
 }
 ```
-which you cite with both keys inside `main.tex`. This will result in the following bibliography
+which you cite with both keys inside `main.tex`. This will 
+result in the following bibliography:
 
-![bibliography](./bibtex_duplicate_remover/img/bibliography.png)
+[1] A. Einstein, B. Podolsky, and N. Rosen, Phys. Rev. **47**, 777 (1935).
+[2] A. Einstein, B. Podolsky, and N. Rosen, Phys. Rev. **47**, 777 (1935).
 
 This package can be used to automatically replace the key 
-`Einstein1935` with `PhysRev.47.777` in your `main.tex` file and 
-remove entry `@article{Einstein1935` from your `bibliography.bib` file by running the following code:
+`Einstein1935` with `PhysRev.47.777` in your `main.tex` 
+file and remove entry `@article{Einstein1935` from your 
+`bibliography.bib` file by running the following code:
 
 ```
 from bibtex_duplicate_remover import ReplaceCiteKeys, RemoveDuplicatesInBibfile
@@ -50,7 +54,8 @@ ReplaceCiteKeys(bibliography.bib, main.tex)
 RemoveDuplicatesInBibfile(bibliography.bib)
 ```
 
-This code can be easily extended to process multiple source files as:
+This code can be easily extended to process multiple 
+source files as:
 
 ```
 from bibtex_duplicate_remover import ReplaceCiteKeys, RemoveDuplicatesInBibfile
